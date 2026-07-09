@@ -85,12 +85,6 @@
       "commit": "89e88af565dfaa9ab2d9c99677b82394ea7be356",
       "installedAt": "2026-07-09T10:56:07.881Z"
     },
-    "explicit-publish": {
-      "source": "github:quartz-community/explicit-publish",
-      "resolved": "https://github.com/quartz-community/explicit-publish.git",
-      "commit": "4afb630a1cc9034267beb93c928e81d0fa2f4d4b",
-      "installedAt": "2026-07-09T10:56:07.743Z"
-    },
     "explorer": {
       "source": "github:quartz-community/explorer",
       "resolved": "https://github.com/quartz-community/explorer.git",
@@ -127,12 +121,6 @@
       "commit": "3eabbaa252ce175665ab3f62e1af25948a83e8b6",
       "installedAt": "2026-07-09T10:56:06.875Z"
     },
-    "graph": {
-      "source": "github:quartz-community/graph",
-      "resolved": "https://github.com/quartz-community/graph.git",
-      "commit": "46f0ba1c3c0cc484697572e7bcf315fa384d80d2",
-      "installedAt": "2026-07-09T10:56:08.914Z"
-    },
     "hard-line-breaks": {
       "source": "github:quartz-community/hard-line-breaks",
       "resolved": "https://github.com/quartz-community/hard-line-breaks.git",
@@ -163,23 +151,23 @@
       "commit": "a1c1fe0a9c6a5ce1acf6efa01d473a7d9850e2a3",
       "installedAt": "2026-07-09T10:56:09.171Z"
     },
-    "reader-mode": {
-      "source": "github:quartz-community/reader-mode",
-      "resolved": "https://github.com/quartz-community/reader-mode.git",
-      "commit": "73c8bce66df8835510ffac47e53b1ca0f7efd51e",
-      "installedAt": "2026-07-09T10:56:09.843Z"
+    "quartz-community-graph": {
+      "source": "github:enihsyou/quartz-community-graph",
+      "resolved": "https://github.com/enihsyou/quartz-community-graph.git",
+      "commit": "16db4d3012947affea0b1f8dbd375eb62af03d5e",
+      "installedAt": "2026-07-09T14:08:12.978Z"
+    },
+    "quartz-leaflet-bases-plugin": {
+      "source": "github:requiae/quartz-leaflet-bases-plugin",
+      "resolved": "https://github.com/requiae/quartz-leaflet-bases-plugin.git",
+      "commit": "48da13cf01ba6d742e616da2e837fd2a9478ac79",
+      "installedAt": "2026-07-09T14:08:12.126Z"
     },
     "recent-notes": {
       "source": "github:quartz-community/recent-notes",
       "resolved": "https://github.com/quartz-community/recent-notes.git",
       "commit": "3c3d104335e2fc5ff62371ead157667adb79b046",
       "installedAt": "2026-07-09T10:56:10.009Z"
-    },
-    "remove-draft": {
-      "source": "github:quartz-community/remove-draft",
-      "resolved": "https://github.com/quartz-community/remove-draft.git",
-      "commit": "0a51a4c6abb3c86961a9bbf46f4538da87fcf9f8",
-      "installedAt": "2026-07-09T10:56:07.738Z"
     },
     "search": {
       "source": "github:quartz-community/search",
