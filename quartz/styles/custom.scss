@@ -1,3 +1,23 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+body.theme-dark {
+    tbody tr:nth-child(even) {
+        background-color: color-mix(in srgb, var(--light), white 5%);
+    }
+
+    tbody tr:nth-child(odd) {
+        background-color: color-mix(in srgb, var(--light), white 10%);
+    }
+}
+
+body.theme-light {
+    tbody tr:nth-child(even) {
+        background-color: color-mix(in srgb, var(--light), black 5%);
+    }
+
+    tbody tr:nth-child(odd) {
+        background-color: color-mix(in srgb, var(--light), black 10%);
+    }
+}
