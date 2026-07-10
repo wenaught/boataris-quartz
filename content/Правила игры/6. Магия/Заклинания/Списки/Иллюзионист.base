@@ -1,0 +1,52 @@
+filters:
+  and:
+    - file.inFolder("Правила игры/6. Магия/Заклинания")
+views:
+  - type: list
+    name: Заклинания иллюзиониста первого круга
+    filters:
+      and:
+        - il == 1
+    order:
+      - file.name
+    markers: number
+  - type: list
+    name: Заклинания иллюзиониста второго круга
+    filters:
+      and:
+        - il == 2
+    order:
+      - file.name
+    markers: number
+  - type: list
+    name: Заклинания иллюзиониста третьего круга
+    filters:
+      and:
+        - il == 3
+    order:
+      - file.name
+    markers: number
+  - type: list
+    name: Заклинания иллюзиониста четвертого круга
+    filters:
+      and:
+        - il == 4
+    order:
+      - file.name
+    markers: number
+  - type: list
+    name: Заклинания иллюзиониста пятого круга
+    filters:
+      and:
+        - il == 5
+    order:
+      - file.name
+    markers: number
+  - type: list
+    name: Заклинания иллюзиониста шестого круга
+    filters:
+      and:
+        - il == 6
+    order:
+      - file.name
+    markers: number

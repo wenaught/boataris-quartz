@@ -1,0 +1,52 @@
+filters:
+  and:
+    - file.inFolder("Правила игры/6. Магия/Заклинания")
+views:
+  - type: list
+    name: Заклинания жреца первого круга
+    filters:
+      and:
+        - cl == 1
+    order:
+      - file.name
+    markers: number
+  - type: list
+    name: Заклинания жреца второго круга
+    filters:
+      and:
+        - cl == 2
+    order:
+      - file.name
+    markers: number
+  - type: list
+    name: Заклинания жреца третьего круга
+    filters:
+      and:
+        - cl == 3
+    order:
+      - file.name
+    markers: number
+  - type: list
+    name: Заклинания жреца четвертого круга
+    filters:
+      and:
+        - cl == 4
+    order:
+      - file.name
+    markers: number
+  - type: list
+    name: Заклинания жреца пятого круга
+    filters:
+      and:
+        - cl == 5
+    order:
+      - file.name
+    markers: number
+  - type: list
+    name: Заклинания жреца шестого круга
+    filters:
+      and:
+        - cl == 6
+    order:
+      - file.name
+    markers: number
