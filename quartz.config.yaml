@@ -12,10 +12,6 @@ configuration:
     - private
     - templates
     - .obsidian
-    - _attachments
-    - _books
-    - _templates
-    - Мир Боатариса/История/История.base
   theme:
     fontOrigin: googleFonts
     cdnCaching: true

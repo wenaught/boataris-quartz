@@ -1,0 +1,52 @@
+filters:
+  and:
+    - file.inFolder("Правила игры/6. Магия/Заклинания")
+views:
+  - type: list
+    name: Заклинания мага первого круга
+    filters:
+      and:
+        - mu == 1
+    order:
+      - file.name
+    markers: number
+  - type: list
+    name: Заклинания мага второго круга
+    filters:
+      and:
+        - mu == 2
+    order:
+      - file.name
+    markers: number
+  - type: list
+    name: Заклинания мага третьего круга
+    filters:
+      and:
+        - mu == 3
+    order:
+      - file.name
+    markers: number
+  - type: list
+    name: Заклинания мага четвертого круга
+    filters:
+      and:
+        - mu == 4
+    order:
+      - file.name
+    markers: number
+  - type: list
+    name: Заклинания мага пятого круга
+    filters:
+      and:
+        - mu == 5
+    order:
+      - file.name
+    markers: number
+  - type: list
+    name: Заклинания мага шестого круга
+    filters:
+      and:
+        - mu == 6
+    order:
+      - file.name
+    markers: number
