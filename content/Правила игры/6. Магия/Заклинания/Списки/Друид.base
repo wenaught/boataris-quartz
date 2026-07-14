@@ -1,6 +1,7 @@
 filters:
   and:
     - file.inFolder("Правила игры/6. Магия/Заклинания")
+    - "!dr.isEmpty()"
 views:
   - type: list
     name: Заклинания друида первого круга

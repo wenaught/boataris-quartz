@@ -50,3 +50,11 @@ views:
     order:
       - file.name
     markers: number
+  - type: list
+    name: View
+    filters:
+      and:
+        - "!ne.isEmpty()"
+    groupBy:
+      property: ne
+      direction: ASC

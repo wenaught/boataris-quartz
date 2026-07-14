@@ -1,6 +1,8 @@
 filters:
   and:
     - file.inFolder("Правила игры/6. Магия/Заклинания")
+    - "!mu.isEmpty()"
+    - source == "OSE SRD"
 views:
   - type: list
     name: Заклинания мага первого круга

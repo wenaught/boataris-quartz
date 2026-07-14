@@ -17,6 +17,7 @@ views:
         - cl == 2
     order:
       - file.name
+    sort: []
     markers: number
   - type: list
     name: Заклинания жреца третьего круга
@@ -25,6 +26,7 @@ views:
         - cl == 3
     order:
       - file.name
+    sort: []
     markers: number
   - type: list
     name: Заклинания жреца четвертого круга
@@ -39,14 +41,6 @@ views:
     filters:
       and:
         - cl == 5
-    order:
-      - file.name
-    markers: number
-  - type: list
-    name: Заклинания жреца шестого круга
-    filters:
-      and:
-        - cl == 6
     order:
       - file.name
     markers: number
