@@ -12,6 +12,7 @@ configuration:
     - private
     - templates
     - .obsidian
+    - "**/списки"
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
@@ -108,7 +109,7 @@ plugins:
       unlistWhenEncrypted: false
       outputPath: static/encryptedContentIndex.json
   - source: github:quartz-community/alias-redirects
-    enabled: true
+    enabled: false
   - source: github:quartz-community/content-index
     enabled: true
     options:
@@ -138,6 +139,11 @@ plugins:
     layout:
       position: right
       priority: 10
+    options:
+      localGraph:
+        showTags: false
+      globalGraph:
+        showTags: false
   - source: github:quartz-community/search
     enabled: true
     layout:
@@ -178,7 +184,7 @@ plugins:
       priority: 30
       group: toolbar
   - source: github:quartz-community/breadcrumbs
-    enabled: true
+    enabled: false
     layout:
       position: beforeBody
       priority: 5
@@ -207,6 +213,7 @@ plugins:
     enabled: true
     options:
       hidePropertiesView: true
+      includeAll: true
     order: 5
     layout:
       position: beforeBody
