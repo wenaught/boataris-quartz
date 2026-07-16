@@ -4,8 +4,8 @@ import * as ExternalPlugin from "./.quartz/plugins"
 
 ExternalPlugin.Explorer({
   filterFn: (node: FileTrieNode) => {
-    const filteredNodes = node.displayName.toLowerCase() == "заклинания" ? [node, ...node.children] : []
-    return !filteredNodes.includes(node)
+    const omit = "заклинания"
+    return omit != node.displayName.toLowerCase()
   },
 })
 
