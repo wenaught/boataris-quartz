@@ -1,8 +1,8 @@
 import { loadQuartzConfig, loadQuartzLayout } from "./quartz/plugins/loader/config-loader"
 import { FileTrieNode } from "./quartz/util/fileTrie"
-import * as ExternalPlugin from "./.quartz/plugins"
+import { Explorer } from "./.quartz/plugins"
 
-ExternalPlugin.Explorer({
+Explorer({
   filterFn: (node: FileTrieNode) => {
     const omit = "заклинания"
     return omit != node.displayName.toLowerCase()
