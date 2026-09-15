@@ -41,23 +41,6 @@ configuration:
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#b3aa0288"
 plugins:
-  - source: github:quartz-community/created-modified-date
-    enabled: true
-    options:
-      defaultDateType: modified
-      priority:
-        - frontmatter
-        - git
-        - filesystem
-    order: 10
-  - source: github:quartz-community/syntax-highlighting
-    enabled: true
-    options:
-      theme:
-        light: github-light
-        dark: github-dark
-      keepBackground: false
-    order: 20
   - source: github:quartz-community/obsidian-flavored-markdown
     enabled: true
     options:
@@ -107,8 +90,6 @@ plugins:
       passwordField: password
       unlistWhenEncrypted: false
       outputPath: static/encryptedContentIndex.json
-  - source: github:quartz-community/alias-redirects
-    enabled: false
   - source: github:quartz-community/content-index
     enabled: true
     options:
@@ -161,11 +142,6 @@ plugins:
     layout:
       position: beforeBody
       priority: 10
-  - source: github:quartz-community/content-meta
-    enabled: true
-    layout:
-      position: beforeBody
-      priority: 20
   - source: github:quartz-community/tag-list
     enabled: false
     layout:
@@ -194,8 +170,6 @@ plugins:
       links:
         GitHub: https://github.com/jackyzha0/quartz
         Discord Community: https://discord.gg/cRFFHYye7t
-  - source: github:quartz-community/recent-notes
-    enabled: false
   - source: github:quartz-community/spacer
     enabled: true
     options: {}
@@ -221,7 +195,7 @@ plugins:
   - source: github:requiae/quartz-leaflet-bases-plugin
     enabled: true
     options:
-      enableCopyTool: true
+      enableCopyTool: false
 layout:
   groups:
     toolbar:
